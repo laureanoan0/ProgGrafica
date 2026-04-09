@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b7b0af3b57cb42948b2f517bf7555cfe
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Dirty_Floor: {fileID: 2800000, guid: 24631da459c605345ad590b3e0029366, type: 3}
+  - _Texture0: {fileID: 2800000, guid: 24631da459c605345ad590b3e0029366, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

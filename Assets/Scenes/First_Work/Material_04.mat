@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Material_04
+  m_Shader: {fileID: 4800000, guid: cda11a800b47e1b4d9810350c3ac3ee9, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dirty_Floor:
+        m_Texture: {fileID: 2800000, guid: b97db8acddac10d4c867939fcd38e487, type: 3}
+        m_Scale: {x: 1, y: -1.52}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: ceb1bacd3e5dc9b4cb4b85eb1a74cfb6, type: 3}
+        m_Scale: {x: 1, y: -1.76}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float0: 0.47
+    - _Float1: 0.4
+    - _Float2: 2.14
+    - _Float3: 1.5
+    - _Float4: 0.1
+    - _Floor_Scale: 0.81
+    - _Floor_Strength: 10.49
+    - _Glossiness: 0.5
+    - _Metallic: 0
+    - _Ratio: 2.54
+    - _Stoen_Height: 10.83
+    - _Ston_Strenght: 4.09
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
