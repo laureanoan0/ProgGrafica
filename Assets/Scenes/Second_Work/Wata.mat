@@ -68,7 +68,7 @@ Material:
     m_Floats:
     - _Angle: 0
     - _BumpScale: 1
-    - _Cantidaddeagua: 1.05
+    - _Cantidaddeagua: 0.72
     - _Colorpower: 1
     - _Colorscale: -21.31
     - _Cutoff: 0.5
@@ -93,9 +93,9 @@ Material:
     - _lightScale: -2.84
     - _luzpower: 0.8
     - _luzscale: 10
-    - _power: 7.71
+    - _power: 9.5
     - _power1: 3.44
-    - _scale: 1.11
+    - _scale: 2.1
     - _scale1: 10.41
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

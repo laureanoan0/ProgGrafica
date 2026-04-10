@@ -1,10 +1,10 @@
 using UnityEngine;
 
 public class TP_Hologram : MonoBehaviour
+
 {
     bool show = false;
     public Renderer Renderer;
-   
 
     void Awake()
     {
