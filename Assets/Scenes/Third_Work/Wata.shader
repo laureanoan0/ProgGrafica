@@ -36,7 +36,7 @@ Shader "Custom/Wata"
 			float3 ase_worldNormal = i.worldNormal;
 			float fresnelNdotV47 = dot( ase_worldNormal, ase_worldViewDir );
 			float fresnelNode47 = ( 0.0 + _scale * pow( 1.0 - fresnelNdotV47, _power ) );
-			float4 color43 = IsGammaSpace() ? float4(0.1969117,0.5312073,0.5566038,0) : float4(0.03215069,0.2440715,0.2702231,0);
+			float4 color43 = IsGammaSpace() ? float4(0.1969117,0.5312073,0.5566038,0) : float4(0.03215067,0.2440715,0.2702231,0);
 			float temp_output_54_0 = step( ase_worldPos.y , _Cantidaddeagua );
 			o.Albedo = ( ( color42 * fresnelNode47 ) + ( color43 * temp_output_54_0 ) ).rgb;
 			o.Alpha = ( temp_output_54_0 + fresnelNode47 );
@@ -120,7 +120,7 @@ Shader "Custom/Wata"
 }
 /*ASEBEGIN
 Version=18900
-406;73;1202;664;857.1651;30.68953;1;True;False
+406;73;1202;664;935.6121;331.6886;1.669105;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;50;-522.2936,159.6237;Inherit;False;Property;_scale;scale;0;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;51;-519.2936,237.6237;Inherit;False;Property;_power;power;1;0;Create;True;0;0;0;False;0;False;12;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.WorldPosInputsNode;53;-295.2936,402.6237;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
@@ -149,4 +149,4 @@ WireConnection;55;1;47;0
 WireConnection;0;0;46;0
 WireConnection;0;9;55;0
 ASEEND*/
-//CHKSM=44FE9A64BA6727EE7C1D9909EF285FF9BC0F8CBF
+//CHKSM=10B5EDD65EC3A6EFE4443D2BBA74E09A875D877F
