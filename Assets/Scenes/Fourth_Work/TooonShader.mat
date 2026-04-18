@@ -78,7 +78,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ShadowForce1: 0
-    - _ShadowForce2: 0.536
+    - _ShadowForce2: 0.36
     - _ShadowForce3: 0.326
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
