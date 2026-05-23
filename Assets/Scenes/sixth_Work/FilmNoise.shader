@@ -5,7 +5,7 @@ Shader "FilmNoise"
 	Properties
 	{
 		_MainTex ( "Screen", 2D ) = "black" {}
-		_Color("Color ", Color) = (0.754717,0.7097299,0.5873976,1)
+		_Color("Color ", Color) = (1,0.03164461,0,1)
 		_Float0("Float 0", Range( 0 , 1)) = 0.7593412
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 
@@ -129,7 +129,7 @@ Shader "FilmNoise"
 				float4 tex2DNode2 = tex2D( _MainTex, uv_MainTex );
 				float mulTime8 = _Time.y * 10.0;
 				float time3 = mulTime8;
-				float2 coords3 = i.uv.xy * 1000.0;
+				float2 coords3 = i.uv.xy * 700.0;
 				float2 id3 = 0;
 				float2 uv3 = 0;
 				float voroi3 = voronoi3( coords3, time3, id3, uv3, 0 );
@@ -150,12 +150,12 @@ Shader "FilmNoise"
 }
 /*ASEBEGIN
 Version=18900
-172;73;1292;674;1817.828;249.3768;1.823599;True;True
+100;73;1364;818;1501.272;-45.01682;1;True;False
 Node;AmplifyShaderEditor.TemplateShaderPropertyNode;1;-1399.809,67.50861;Inherit;False;0;0;_MainTex;Shader;False;0;5;SAMPLER2D;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleTimeNode;8;-1444.399,424.7159;Inherit;False;1;0;FLOAT;10;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;2;-1258.118,66.43561;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.VoronoiNode;3;-1171.792,279.3069;Inherit;True;0;0;1;0;1;False;1;False;False;4;0;FLOAT2;0,0;False;1;FLOAT;0;False;2;FLOAT;1000;False;3;FLOAT;0;False;3;FLOAT;0;FLOAT2;1;FLOAT2;2
-Node;AmplifyShaderEditor.ColorNode;9;-989.0852,333.1281;Inherit;False;Property;_Color;Color ;0;0;Create;True;0;0;0;False;0;False;0.754717,0.7097299,0.5873976,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;9;-989.0852,333.1281;Inherit;False;Property;_Color;Color ;0;0;Create;True;0;0;0;False;0;False;1,0.03164461,0,1;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.VoronoiNode;3;-1171.792,278.3027;Inherit;True;0;0;1;0;1;False;1;False;False;4;0;FLOAT2;0,0;False;1;FLOAT;0;False;2;FLOAT;700;False;3;FLOAT;0;False;3;FLOAT;0;FLOAT2;1;FLOAT2;2
 Node;AmplifyShaderEditor.LerpOp;6;-729.5836,28.73759;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.RangedFloatNode;11;-579.8367,257.2586;Inherit;False;Property;_Float0;Float 0;1;0;Create;True;0;0;0;False;0;False;0.7593412;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.LerpOp;10;-403.2764,21.24282;Inherit;False;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
@@ -170,4 +170,4 @@ WireConnection;10;1;2;0
 WireConnection;10;2;11;0
 WireConnection;0;0;10;0
 ASEEND*/
-//CHKSM=C1AC0BE2357104B93B347926CC5E0A5895310F83
+//CHKSM=B5B0B5B115A94F26EFB3281CE78FD7BF0D2000B5
