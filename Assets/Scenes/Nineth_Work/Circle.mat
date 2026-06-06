@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MultiWavesMat
-  m_Shader: {fileID: 4800000, guid: 4855f40ba14647144a2ca1e91eef5e83, type: 3}
+  m_Name: Circle
+  m_Shader: {fileID: 4800000, guid: 674d431bca891724f8cb1d1c3937b54b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -56,34 +56,37 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a99649a3ac7df724eb781c969383e632, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Frequency: 2.7
-    - _Frequency1: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LineSpeed: 1
-    - _LineSpeed2: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Round: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Thickness: 0.99
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _COlor: {r: 0.6431373, g: 0, b: 0.64078236, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.052033663, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Vector0: {r: -1.14, g: 0, b: -2.23, a: 0}
-    - _high: {r: 1, g: 0, b: 0.9176221, a: 0}
-    - _low: {r: 0, g: 0.17926902, b: 1, a: 0}
+    - _TilingOffset: {r: 0.1, g: 0.1, b: 1, a: 1}
   m_BuildTextureStacks: []
